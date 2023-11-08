@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(CMakeSFMLProject LANGUAGES CXX)
+project(SFMLpractice LANGUAGES CXX)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 option(BUILD_SHARED_LIBS "Build shared libraries" OFF)
@@ -10,9 +10,26 @@ FetchContent_Declare(SFML
     GIT_TAG 2.6.x)
 FetchContent_MakeAvailable(SFML)
 
-add_executable(CMakeSFMLProject src/main.cpp)
-target_link_libraries(CMakeSFMLProject PRIVATE sfml-graphics)
-target_compile_features(CMakeSFMLProject PRIVATE cxx_std_17)
+# Add all .c, - files under src/ directory
+file(GLOB SOURCES_C "src/*.c")
+# Add all .cpp, - files under src/ directory
+file(GLOB SOURCES_CPP "src/*.cpp")
+# Add all .hpp, - files under src/ directory
+file(GLOB SOURCES_HPP "include/*.hpp")
+# Add all .h, - files under src/ directory
+file(GLOB SOURCES_H "include/*.h")
+set(SOURCES ${SOURCES_C} ${SOURCES_CPP} ${SOURCES_H} ${SOURCES_HPP})
+message(STATUS "SRC directory source code files: \n\t-- HEADERS: ${SOURCES_H}${SOURCES_HPP}\n\t-- C SOURCES: ${SOURCES_C}\n\t-- CPP SOURCE:${SOURCES_CPP}\n\t-- ALL:${SOURCES}")
+# add the executable target
+add_executable(SFMLpractice)
+
+target_sources(SFMLpractice PUBLIC ${SOURCES})
+target_include_directories(SFMLpractice PUBLIC includes)
+target_include_directories(SFMLpractice PUBLIC src)
+
+target_link_libraries(SFMLpractice PRIVATE sfml-graphics)
+target_compile_features(SFMLpractice PRIVATE cxx_std_17)
+
 
 if(WIN32)
     add_custom_command(
@@ -22,4 +39,4 @@ if(WIN32)
         VERBATIM)
 endif()
 
-install(TARGETS CMakeSFMLProject)
+install(TARGETS SFMLpractice)
