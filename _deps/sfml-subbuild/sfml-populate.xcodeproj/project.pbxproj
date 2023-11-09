@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		188BA2EA4771419C9D56957F /* sfml-populate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FBA8A58F14A84BA29355E86A /* Build configuration list for PBXAggregateTarget "sfml-populate" */;
+			buildPhases = (
+				37ED95BD64F4167B4F8E945E /* Generate sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-mkdir */,
+				1D7A73463C7150861BDE1097 /* Generate sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-download */,
+				B8B70D1D016170FB1F505E56 /* Generate sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-update */,
+				9BF0C0EE30DAEE1328984097 /* Generate sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-patch */,
+				BC0F1376A494512CDEEB0BFA /* Generate sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-configure */,
+				F99B3CA86CA6D048C0C68C0A /* Generate sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-build */,
+				DF1F26F3AA29911A585A54AE /* Generate sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-install */,
+				E7F24BC6F12409EF9D5A9B04 /* Generate sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-test */,
+				97D73CFAEBBA52934D266F3E /* Generate CMakeFiles/Debug/sfml-populate-complete */,
+				5D48504DF90848CCFE949046 /* Generate CMakeFiles/sfml-populate */,
+			);
+			dependencies = (
+				A71DF7587AD042198794FC11 /* PBXTargetDependency */,
+			);
+			name = "sfml-populate";
+			productName = "sfml-populate";
+		};
+		26AB0AF97E93488AA1463E5B /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B2B35DA4E2F745BEBE9E81FF /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				8420EEA50B1D6930BB3BB11A /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				AE0DBF4FBB284CC68DB18C7D /* PBXTargetDependency */,
+				1C05ABDB2BAC446B9707738E /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		70CF2FFEC9DC4EB7A113F865 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4C0C17AFB5AB48B98F84C75B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				5171AA2EBE4232EDF8BCB8D9 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildStyle section */
+		CB2E09C8F19743BFB13D8B94 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		06352E09318145CBA6BE656E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6502C86D17D4027B186FB87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70CF2FFEC9DC4EB7A113F865;
+			remoteInfo = ZERO_CHECK;
+		};
+		1F03BD3197FF4DA199B2F6FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6502C86D17D4027B186FB87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 188BA2EA4771419C9D56957F;
+			remoteInfo = "sfml-populate";
+		};
+		B63516FEE23747EDBE835940 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6502C86D17D4027B186FB87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70CF2FFEC9DC4EB7A113F865;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62C1435D713A4A739CCBBDA1 /* /Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7CAB23BC66894AA5BF90F6E1 /* /Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		199AF97CD403446292028D68 /* sfml-populate */ = {
+			isa = PBXGroup;
+			children = (
+				51481D6DF6784FE589F1547B /* sfml-populate */,
+			);
+			name = "sfml-populate";
+			sourceTree = "<group>";
+		};
+		265FF7440D54463A9AFD7825 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		51481D6DF6784FE589F1547B /* sfml-populate */ = {
+			isa = PBXGroup;
+			children = (
+				D90E19756ED24FACBA58AC2D /* CMake Rules */,
+				62C1435D713A4A739CCBBDA1 /* /Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/CMakeLists.txt */,
+			);
+			name = "sfml-populate";
+			sourceTree = "<group>";
+		};
+		57A1D884C15A4CFC889C6354 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		749FC90CC7534A43819C4F6E /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				265FF7440D54463A9AFD7825 /* CMake Rules */,
+				7CAB23BC66894AA5BF90F6E1 /* /Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		9029C33E0DA24309A9D04C01 /* ExternalProjectTargets */ = {
+			isa = PBXGroup;
+			children = (
+				199AF97CD403446292028D68 /* sfml-populate */,
+			);
+			name = ExternalProjectTargets;
+			sourceTree = "<group>";
+		};
+		9D67F7D5D90046D283F5F40B = {
+			isa = PBXGroup;
+			children = (
+				9029C33E0DA24309A9D04C01 /* ExternalProjectTargets */,
+				749FC90CC7534A43819C4F6E /* ALL_BUILD */,
+				57A1D884C15A4CFC889C6354 /* Products */,
+				A08D9FA4FCBF41DBA00BA8CD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A08D9FA4FCBF41DBA00BA8CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D90E19756ED24FACBA58AC2D /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		B6502C86D17D4027B186FB87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 5E82B5850D0F4A37A69046F0 /* Build configuration list for PBXProject "sfml-populate" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				CB2E09C8F19743BFB13D8B94 /* Debug */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 9D67F7D5D90046D283F5F40B;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				26AB0AF97E93488AA1463E5B /* ALL_BUILD */,
+				70CF2FFEC9DC4EB7A113F865 /* ZERO_CHECK */,
+				188BA2EA4771419C9D56957F /* sfml-populate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D7A73463C7150861BDE1097 /* Generate sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-download */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-mkdir","/Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-gitinfo.txt"			);
+			name = "Generate sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-download";
+			outputPaths = (
+"/Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-download"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/rosa/documents/SUPERCELL/SFMLpractice/_deps
+  /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -P /Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-gitclone.cmake
+  /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E touch /Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-download
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		37ED95BD64F4167B4F8E945E /* Generate sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-mkdir */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-mkdir";
+			outputPaths = (
+"/Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-mkdir"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild
+  /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -Dcfgdir=/Debug -P /Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-mkdirs.cmake
+  /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E touch /Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-mkdir
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		5171AA2EBE4232EDF8BCB8D9 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild
+  make -f /Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		5D48504DF90848CCFE949046 /* Generate CMakeFiles/sfml-populate */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/CMakeFiles/Debug/sfml-populate-complete"			);
+			name = "Generate CMakeFiles/sfml-populate";
+			outputPaths = (
+"/Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/CMakeFiles/sfml-populate"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		8420EEA50B1D6930BB3BB11A /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		97D73CFAEBBA52934D266F3E /* Generate CMakeFiles/Debug/sfml-populate-complete */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-build","/Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-configure","/Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-download","/Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-install","/Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-mkdir","/Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-patch","/Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-test","/Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-update"			);
+			name = "Generate CMakeFiles/Debug/sfml-populate-complete";
+			outputPaths = (
+"/Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/CMakeFiles/Debug/sfml-populate-complete"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild
+  /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E make_directory /Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/CMakeFiles/Debug
+  /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E touch /Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/CMakeFiles/Debug/sfml-populate-complete
+  /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E touch /Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-done
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9BF0C0EE30DAEE1328984097 /* Generate sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-patch */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-update","/Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch-info.txt"			);
+			name = "Generate sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-patch";
+			outputPaths = (
+"/Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-patch"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild
+  /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E echo_append
+  /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E touch /Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-patch
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		B8B70D1D016170FB1F505E56 /* Generate sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-update */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-download","/Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update-info.txt","/Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-gitupdate.cmake"			);
+			name = "Generate sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-update";
+			outputPaths = (
+"/Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-update"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/rosa/documents/SUPERCELL/SFMLpractice/_deps/sfml-src
+  /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -Dcan_fetch=YES -P /Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-gitupdate.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		BC0F1376A494512CDEEB0BFA /* Generate sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-configure */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-patch","/Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-cfgcmd.txt"			);
+			name = "Generate sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-configure";
+			outputPaths = (
+"/Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-configure"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/rosa/documents/SUPERCELL/SFMLpractice/_deps/sfml-build
+  /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E echo_append
+  /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E touch /Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-configure
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		DF1F26F3AA29911A585A54AE /* Generate sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-install */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-build"			);
+			name = "Generate sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-install";
+			outputPaths = (
+"/Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-install"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/rosa/documents/SUPERCELL/SFMLpractice/_deps/sfml-build
+  /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E echo_append
+  /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E touch /Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-install
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		E7F24BC6F12409EF9D5A9B04 /* Generate sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-test */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-install"			);
+			name = "Generate sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-test";
+			outputPaths = (
+"/Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-test"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/rosa/documents/SUPERCELL/SFMLpractice/_deps/sfml-build
+  /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E echo_append
+  /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E touch /Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-test
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		ECFABDB909A10F90080D6000 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		F99B3CA86CA6D048C0C68C0A /* Generate sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-build */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-configure"			);
+			name = "Generate sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-build";
+			outputPaths = (
+"/Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-build"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/rosa/documents/SUPERCELL/SFMLpractice/_deps/sfml-build
+  /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E echo_append
+  /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E touch /Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-build
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C05ABDB2BAC446B9707738E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 188BA2EA4771419C9D56957F /* sfml-populate */;
+			targetProxy = 1F03BD3197FF4DA199B2F6FC /* PBXContainerItemProxy */;
+		};
+		A71DF7587AD042198794FC11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70CF2FFEC9DC4EB7A113F865 /* ZERO_CHECK */;
+			targetProxy = 06352E09318145CBA6BE656E /* PBXContainerItemProxy */;
+		};
+		AE0DBF4FBB284CC68DB18C7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70CF2FFEC9DC4EB7A113F865 /* ZERO_CHECK */;
+			targetProxy = B63516FEE23747EDBE835940 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3BFDEF8C7C854F409AA79F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		46C10894DA7649B896569F75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		5C802F963EA34E788A0DB803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk;
+				SYMROOT = "/Users/rosa/Documents/SUPERCELL/SFMLpractice/_deps/sfml-subbuild/build";
+			};
+			name = Debug;
+		};
+		7AF0D086162E494C8ACDF936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "sfml-populate";
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C0C17AFB5AB48B98F84C75B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46C10894DA7649B896569F75 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5E82B5850D0F4A37A69046F0 /* Build configuration list for PBXProject "sfml-populate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C802F963EA34E788A0DB803 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B2B35DA4E2F745BEBE9E81FF /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BFDEF8C7C854F409AA79F4A /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FBA8A58F14A84BA29355E86A /* Build configuration list for PBXAggregateTarget "sfml-populate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AF0D086162E494C8ACDF936 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6502C86D17D4027B186FB87 /* Project object */;
+}
